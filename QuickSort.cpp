@@ -35,7 +35,7 @@ void quicksort(std::array<T,size>& arr,int low,int high) {
 
 int main() {
     
-    array<int,8> arr = {3,8,5,2,10,7,4,6};
+    array<int,8> arr = {3,8,5,2,10,7,4,6}; // Let's try our algorithm
     quicksort(arr, 0, arr.size()-1);
     
     for (const auto& s: arr) {
